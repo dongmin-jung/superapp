@@ -53,7 +53,7 @@ module.exports = (env, argv) => {
     // 테스트 웹 서버 설정.
 
     const serverIP = '0.0.0.0';
-    const localIP = '127.0.0.1';
+    const localIP = '172.23.4.203';
     const serverPort = 8081;
 
     // ===============================================
