@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IconComponent/ic_gallery_BorderColorFilled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.54">
+        <g id="2)Ribbon/1)dropdown/galler/BorderColor" fill="#000000" fill-rule="nonzero">
+            <path d="M21.9999584,24 L2.00004162,24 L2.00004162,20.0000167 L21.9999584,20.0000167 L21.9999584,24 Z M13.0599956,5.19003835 L16.80998,8.94002274 L7.75001769,18.000025 L4.0000333,18.000025 L4.0000333,14.2500406 L13.0599956,5.19003835 Z M17.8799755,7.87002719 L14.1299911,4.1200428 L15.9599835,2.29005042 C16.3499819,1.90005204 16.9799793,1.90005204 17.3699776,2.29005042 L19.7099679,4.63004068 C20.0999663,5.02003905 20.0999663,5.65003643 19.7099679,6.04003481 L17.8799755,7.87002719 Z" id="BorderColorFilled"></path>
+        </g>
+    </g>
+</svg>

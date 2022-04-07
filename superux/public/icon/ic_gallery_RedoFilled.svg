@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IconComponent/ic_gallery_RedoFilled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.54">
+        <g id="2)Ribbon/1)dropdown/galler/RndoFilled" fill="#000000" fill-rule="nonzero">
+            <path d="M12.5,7.99999998 C9.84999999,7.99999998 7.44999998,8.98999999 5.59999997,10.6 L1.99999996,6.99999998 L1.99999996,16 L11,16 L7.37999998,12.38 C8.76999999,11.22 10.54,10.5 12.5,10.5 C16.04,10.5 19.05,12.81 20.1,16 L22.47,15.22 C21.08,11.03 17.15,7.99999998 12.5,7.99999998 Z" id="RndoFilled" transform="translate(12.235000, 11.500000) scale(-1, 1) translate(-12.235000, -11.500000) "></path>
+        </g>
+    </g>
+</svg>

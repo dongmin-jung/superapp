@@ -1,0 +1,14 @@
+.repeatableLayout {
+    background-color: rgb(255, 255, 255);
+
+    // 자식들을 강제로 일렬로 보여주기 위한 임시 코드.
+    // Horizontal / vertical layout과 유사한 방식으로 대체 예정.
+    /* stylelint-disable-next-line selector-max-universal */
+    > * {
+        // 자식의 absolute positioning 무시.
+        position: relative !important;
+
+        // 자식의 inlining 무시.
+        display: flex !important;
+    }
+}

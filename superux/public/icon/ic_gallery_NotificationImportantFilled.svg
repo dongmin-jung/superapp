@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IconComponent/ic_gallery_NotificationImportantFilled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.54">
+        <g id="2)Ribbon/1)dropdown/galler/NotificationImportant" fill="#000000" fill-rule="nonzero">
+            <path d="M18,16 L18,11 C18,7.92999998 16.36,5.35999997 13.5,4.67999997 L13.5,3.99999996 C13.5,3.16999996 12.83,2.49999996 12,2.49999996 C11.17,2.49999996 10.5,3.16999996 10.5,3.99999996 L10.5,4.67999997 C7.62999998,5.35999997 5.99999997,7.91999998 5.99999997,11 L5.99999997,16 L3.99999997,18 L3.99999997,19 L20,19 L20,18 L18,16 Z M13,16 L11,16 L11,14 L13,14 L13,16 Z M13,12 L11,12 L11,7.99999998 L13,7.99999998 L13,12 Z M12,22 C13.1,22 14,21.1 14,20 L9.99999999,20 C9.99999999,21.1 10.89,22 12,22 Z" id="NotificationImportantFilled"></path>
+        </g>
+    </g>
+</svg>

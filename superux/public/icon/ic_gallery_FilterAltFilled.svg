@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IconComponent/ic_gallery_FilterAltFilled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.54">
+        <g id="2)Ribbon/1)dropdown/galler/FilterAltFilled" fill="#000000" fill-rule="nonzero">
+            <path d="M4.24998997,5.60999997 C6.26998998,8.19999998 9.99998999,13 9.99998999,13 L9.99998999,19 C9.99998999,19.55 10.45,20 11,20 L13,20 C13.55,20 14,19.55 14,19 L14,13 C14,13 17.72,8.19999998 19.74,5.60999997 C20.25,4.94999997 19.78,3.99999997 18.95,3.99999997 L5.03998997,3.99999997 C4.20998997,3.99999997 3.73998997,4.94999997 4.24998997,5.60999997 Z" id="FilterAltFilled"></path>
+        </g>
+    </g>
+</svg>

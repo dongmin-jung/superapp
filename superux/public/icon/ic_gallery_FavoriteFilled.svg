@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IconComponent/ic_gallery_FavoriteFilled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.54">
+        <g id="2)Ribbon/1)dropdown/galler/FavoriteFilled" fill="#000000" fill-rule="nonzero">
+            <path d="M12,21.35 L10.55,20.03 C5.39999997,15.36 1.99999996,12.28 1.99999996,8.49999996 C1.99999996,5.41999997 4.41999997,2.99999996 7.49999996,2.99999996 C9.23999999,2.99999996 10.91,3.80999997 12,5.08999997 C13.09,3.80999997 14.76,2.99999996 16.5,2.99999996 C19.58,2.99999996 22,5.41999997 22,8.49999996 C22,12.28 18.6,15.36 13.45,20.04 L12,21.35 Z" id="FavoriteFilled"></path>
+        </g>
+    </g>
+</svg>

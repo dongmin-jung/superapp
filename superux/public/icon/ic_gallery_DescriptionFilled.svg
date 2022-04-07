@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>IconComponent/ic_gallery_DescriptionFilled</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.54">
+        <g id="2)Ribbon/1)dropdown/galler/DescriptionFilled" fill="#000000" fill-rule="nonzero">
+            <path d="M14,1.99999996 L5.99999997,1.99999996 C4.89999997,1.99999996 4.00999997,2.89999996 4.00999997,3.99999996 L3.99999997,20 C3.99999997,21.1 4.88999997,22 5.98999997,22 L18,22 C19.1,22 20,21.1 20,20 L20,7.99999996 L14,1.99999996 Z M16,18 L7.99999998,18 L7.99999998,16 L16,16 L16,18 Z M16,14 L7.99999998,14 L7.99999998,12 L16,12 L16,14 Z M13,8.99999996 L13,3.49999996 L18.5,8.99999996 L13,8.99999996 Z" id="DescriptionFilled"></path>
+        </g>
+    </g>
+</svg>
