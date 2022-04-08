@@ -1,0 +1,48 @@
+# kubectl exec -i -t superapp-5fd56d94b7-sqzfw -n superapp -- /bin/bash
+# cd /root/superapp/superux/
+# npm run serve
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: superapp
+  namespace: superapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: superapp
+  template:
+    metadata:
+      name: superapp
+      labels:
+        app: superapp
+    spec:
+      containers:
+        - image: dongminjung/superapp:040820
+          imagePullPolicy: Always
+          name: superapp
+          ports:
+            - containerPort: 4000
+              protocol: TCP
+            - containerPort: 8081
+              protocol: TCP
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: superapp
+  namespace: superapp
+spec:
+  type: NodePort
+  selector:
+    app: superapp
+  ports:
+  - name: '8081'
+    port: 8081
+    targetPort: 8081
+    nodePort: 30001
+  - name: '4000'
+    port: 4000
+    targetPort: 4000
+    nodePort: 30000
