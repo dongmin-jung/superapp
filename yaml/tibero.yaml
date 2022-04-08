@@ -1,0 +1,100 @@
+
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: meta-db
+  namespace: ck1-1-superdx-tibero
+spec:
+  storageClassName: longhorn
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 20Gi
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tibero-db
+  namespace: ck1-1-superdx-tibero
+  labels:
+    istio-injection: disabled
+    hypercloud: tibero-db
+  annotations:
+    sidecar.istio.io/inject: "false"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      hypercloud: tibero-db
+  template:
+    metadata:
+      name: tibero-db
+      labels:
+        hypercloud: tibero-db
+      annotations:
+        sidecar.istio.io/inject: "false"
+    spec:
+      containers:
+      - name: hypercloud-meta-db
+        image: tmaxcloudck/cloud_tcs_tibero_standalone:190520
+        imagePullPolicy: IfNotPresent
+        env:
+        - name: TCS_INSTALL
+          value: "1"
+        - name: TCS_MAX_SESSCNT
+          value: "100"
+        - name: TCS_SID
+          value: "tibero"
+        - name: TB_SID
+          value: "tibero"
+        - name: TCS_TOTAL_SHM_SIZE
+          value: "1G"
+        - name: TCS_MEMORY_TARGET
+          value: "2G"
+        - name: TCS_PORT
+          value: "8629"
+        - name: MASTER_USER
+          value: "hello"
+        - name: MASTER_PASSWORD
+          value: "tibero"
+        ports:
+        - containerPort: 8629
+        volumeMounts:
+        - mountPath: "/tibero/mnt/tibero"
+          name: meta-db
+        resources:
+          limits:
+            memory: "3Gi"
+            cpu: "500m"
+      tolerations:
+      - effect: NoExecute
+        key: node.kubernetes.io/not-ready
+        tolerationSeconds: 10
+      - effect: NoExecute
+        key: node.kubernetes.io/unreachable
+        tolerationSeconds: 10
+      volumes:
+        - name: meta-db
+          persistentVolumeClaim:
+            claimName: meta-db
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: tibero-db-svc
+  namespace: superapp
+spec:
+  ports:
+  - name: "base"
+    protocol: TCP
+    port: 8629
+    nodePort: 31525
+  selector:
+    hypercloud: tibero-db
+  type: NodePort
+
